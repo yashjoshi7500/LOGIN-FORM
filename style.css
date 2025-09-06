@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:linear-gradient(115deg,#52d5e1 10% ,#ad00ff 90%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:80vh;
+    
+}
+.container{
+    background-color: white;
+    padding:50px;
+    text-align: center;
+    border:px solid skyblue;
+
+}
+h1{
+    margin-bottom:20px;
+    text-decoration: underline;
+}
+input{
+    margin-bottom:10px;
+    width: 250px;
+
+    height: 30px;
+    font-size: 15px;
+}
+button{
+    height: 30px;
+    width: 250px;
+    background:linear-gradient(115deg,#52d5e1 10% ,#ad00ff 90%);
+    color:white;
+    text-decoration: underline;
+}
+
+#usernameerror{
+    color:red;
+    text-align:left;
+}
+#userpassworderror{
+    color:red;
+    text-align:left;
+}
